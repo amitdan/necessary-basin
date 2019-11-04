@@ -21,7 +21,7 @@
     "eject": "react-scripts eject",
     "start":"react-app-rewired start"
   },
-  "main":"./bin/www",
+  
   "standard-version":{
     "scripts":{
       "postbump":"npm run postinstall && node release.js",
