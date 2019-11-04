@@ -45,6 +45,7 @@
     "package.json",
     "app.js",
     "public",
+    "src",
     "bin",
     "LICENSE",
     "licenses"
