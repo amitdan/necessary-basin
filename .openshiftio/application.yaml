@@ -102,12 +102,12 @@ objects:
           containers:
             - readinessProbe:
                 httpGet:
-                  path: /api/greeting
+                  path: /login
                   port: 8080
                   scheme: HTTP
               livenessProbe:
                 httpGet:
-                  path: /api/greeting
+                  path: /signup
                   port: 8080
                   scheme: HTTP
                 initialDelaySeconds: 60
