@@ -7,11 +7,11 @@ import './AppHeader.css';
 import pollIcon from '../poll.svg';
 import { Layout, Menu, Dropdown, Icon } from 'antd';
 const Header = Layout.Header;
-    
+
 class AppHeader extends Component {
     constructor(props) {
-        super(props);   
-        this.handleMenuClick = this.handleMenuClick.bind(this);   
+        super(props);
+        this.handleMenuClick = this.handleMenuClick.bind(this);
     }
 
     handleMenuClick({ key }) {
@@ -29,25 +29,25 @@ class AppHeader extends Component {
                 <Icon type="home" className="nav-icon" />
               </Link>
             </Menu.Item>,
-            <Menu.Item key="/EV/new">
-            <Link to="/EV/new">
+            <Menu.Item key="/poll/new">
+            <Link to="/poll/new">
               <img src={pollIcon} alt="poll" className="poll-icon" />
             </Link>
           </Menu.Item>,
           <Menu.Item key="/profile" className="profile-menu">
-                <ProfileDropdownMenu 
-                  currentUser={this.props.currentUser} 
+                <ProfileDropdownMenu
+                  currentUser={this.props.currentUser}
                   handleMenuClick={this.handleMenuClick}/>
             </Menu.Item>
-          ]; 
+          ];
         } else {
           menuItems = [
             <Menu.Item key="/login">
               <Link to="/login">Login</Link>
-            </Menu.Item>,
-            <Menu.Item key="/signup">
-              <Link to="/signup">Signup</Link>
-            </Menu.Item>                  
+            </Menu.Item>
+
+
+
           ];
         }
 
@@ -55,7 +55,7 @@ class AppHeader extends Component {
             <Header className="app-header">
             <div className="container">
               <div className="app-title" >
-                <Link to="/">Polling App</Link>
+                <Link to="/">Eagle-I Dashboard</Link>
               </div>
               <Menu
                 className="app-menu"
@@ -92,8 +92,8 @@ function ProfileDropdownMenu(props) {
   );
 
   return (
-    <Dropdown 
-      overlay={dropdownMenu} 
+    <Dropdown
+      overlay={dropdownMenu}
       trigger={['click']}
       getPopupContainer = { () => document.getElementsByClassName('profile-menu')[0]}>
       <a className="ant-dropdown-link">
