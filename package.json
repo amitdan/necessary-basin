@@ -19,7 +19,7 @@
     "postinstall":"license-reporter report -s && license-reporter save -s --xml licenses.xml",
     "build": "react-app-rewired build",
     "eject": "react-scripts eject",
-    "start":"react-app-rewired start"
+    "start": "NODE_ENV=DEV react-app-rewired start"
   },
   
   "standard-version":{
