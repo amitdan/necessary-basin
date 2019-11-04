@@ -3,7 +3,7 @@
   "version":"1.0.0",
   "author":"Red Hat, Inc.",
   "license":"Apache-2.0",
-  "scripts":{    
+  "scripts":{
     "lint":"xo",
     "prepare":"echo 'To confirm CVE compliance, run \"npm run security-check\"' ",
     "security-check":"nsp check",
@@ -18,7 +18,7 @@
     "eject": "react-scripts eject",
     "start": "NODE_ENV=DEV react-app-rewired start"
   },
-  
+
   "standard-version":{
     "scripts":{
       "postbump":"npm run postinstall && node release.js",
@@ -36,7 +36,7 @@
   },
   "repository":{
     "type":"git",
-    "url":"git://github.com/nodeshift-starters/nodejs-rest-http-redhat.git"
+    "url":"git://github.com/amitdan/necessary-basin.git"
   },
   "files":[
     "package.json",
@@ -50,7 +50,7 @@
   "bugs":{
     "url":"https://github.com/nodeshift-starters/nodejs-rest-http-redhat/issues"
   },
-  "homepage":"https://github.com/nodeshift-starters/nodejs-rest-http-redhat",
+  "homepage":"https://github.com/amitdan/necessary-basin",
   "devDependencies":{
     "coveralls":"^3.0.0",
     "js-yaml":"^3.10.0",
@@ -81,4 +81,4 @@
     "react-app-rewire-less": "^2.1.0",
     "react-app-rewired": "^1.4.1"
   }
-} 
+}
