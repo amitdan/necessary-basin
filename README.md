@@ -1,6 +1,6 @@
 ## Full Stack Evliion app to find near by EV charging stations and/or battery swapping stations
 
-## Built with 
+## Built with ..
 
 1. **Spring Boot**
 2. **Spring Security**
