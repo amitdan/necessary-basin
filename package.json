@@ -3,10 +3,7 @@
   "version":"1.0.0",
   "author":"Red Hat, Inc.",
   "license":"Apache-2.0",
-  "scripts":{
-    "test":"tape test/*.js | tap-spec",
-    "test:integration":"tape test/integration/*.js | tap-spec",
-    "test:integration:undeploy":"nodeshift --strictSSL=false undeploy",
+  "scripts":{    
     "lint":"xo",
     "prepare":"echo 'To confirm CVE compliance, run \"npm run security-check\"' ",
     "security-check":"nsp check",
