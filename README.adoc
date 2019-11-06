@@ -28,12 +28,12 @@ $ npm install && npm run openshift
 You can learn more about this example application and rest of the Node.js runtime in the link:http://launcher.fabric8.io/docs/nodejs-runtime.html[Node.js Runtime Guide].
 
 == Red Hat tool used
-
+[source,bash,options="nowrap",subs="attributes+"]
+----
 1.Red Hat Application Runtime - NodeJs and SpringBoot
 2.OpenShift Container platform
 3.Red Hat Fuse
 4.Red Hat AMQ
 5.Red Hat 3scale
 6.Red Hat Single Sign-on (SSO)
-
-
+----
