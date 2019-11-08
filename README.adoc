@@ -37,3 +37,15 @@ You can learn more about this example application and rest of the Node.js runtim
 5.Red Hat 3scale
 6.Red Hat Single Sign-on (SSO)
 ----
+
+
+== How did I use Red Hat tools ?
+[source,bash,options="nowrap",subs="attributes+"]
+----
+1.Red Hat Application Runtime - NodeJs and SpringBoot : React app is running on top of NodeJs runtime and Microservice is running on top of SpringBoot Runtime. We used it to maintain cloud native architecture.
+2.OpenShift Container platform - Responsible to deploy and run my web app in cloud container.
+3.Red Hat Fuse : We integrated React client, Backend microservice and postgress database using Red Hat Fuse.
+4.Red Hat AMQ : To achieve event based messaging asynchronously we used AMQ streams/messaging broker
+5.Red Hat 3scale : Exposed Rest API's through 3scale to third party and community to search EV chargig and swapping stations.We alos planning to monotize through 3scale.
+6.Red Hat Single Sign-on (SSO) : Used Red hat SSO to incorporate SAML 2.0,OpenId connect and OAuth2.0 to secure web application with cutting edge technology.
+----
